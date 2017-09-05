@@ -17,20 +17,26 @@
   <%= image_tag 'landing_2.png', width: 600 %>
 </div>
 <div class="bigbanner" style="background-image: url('<%= image_path 'landing_3.jpg'%>');">
-  <div class="banner-content">
-    <h2>The journey begins and</h2>
-    <h1>I AM THE ART BASE DESIGNER</h1>
-    <h3>that never worked in a web design company.</h3>
-    <div class="col-xs-5">
-      <h2>K2 digital is a IT based design company, they do have some branding project, but definitely not an ad agency. People may wonder as an advertising student, why don’t you go for an ad agency? Throughout the years as an ad student, i learnt that I’m definitely more of an art direction person than a creative. And I think to myself, why not challenge myself working in a whole new environment? Moreover, K2 digital was finding someone who’s good at art direction.  That’s the reason why I’m in K2 digital.</h2>
+  <div class="banner-content aroundpad">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>The journey begins and</h2>
+        <h1>I AM THE ART BASE DESIGNER</h1>
+        <h2>that never worked in a web design company.</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-6">
+        <p>K2 digital is a IT based design company, they do have some branding project, but definitely not an ad agency. People may wonder as an advertising student, why don’t you go for an ad agency? Throughout the years as an ad student, i learnt that I’m definitely more of an art direction person than a creative. And I think to myself, why not challenge myself working in a whole new environment? Moreover, K2 digital was finding someone who’s good at art direction.  That’s the reason why I’m in K2 digital.</p>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="row padded">
   <div class="col-xs-6 aroundpad">
-    <h2>“ Enhancing my design skills, building connection, get to know about the creative industry.” Right, these are the items that I’ve listed on my internship contract. It may sound cliche, but they are what i expected at first.  As days goes by, i realised there are more to be expected…
-    </h2>
+    <p>“ Enhancing my design skills, building connection, get to know about the creative industry.” Right, these are the items that I’ve listed on my internship contract. It may sound cliche, but they are what i expected at first.  As days goes by, i realised there are more to be expected…
+    </p>
   </div>
   <div class="col-xs-6 left">
     <%= image_tag 'landing_4.jpg', height: 300 %>
@@ -39,77 +45,73 @@
 <div class="text-center">
   <%= image_tag 'WELCOME.png', style: 'width: 100vw; padding: 100px;' %>
   <h2>to</h2>
-  <h2>K2 DIGITAL</h2>
+  <h1>K2 DIGITAL</h1>
   <h2>“Hi, I’m Venus the intern.”</h2>
-  <h2>MEET THE TEAM.</h2>
+  <h2 style="font-style: italic;">MEET THE TEAM.</h2>
   <%= image_tag 'landing_5.jpg', width: 500 %>
   <div class="row">
     <div class="col-xs-4 col-xs-offset-4 text-center">
-      <h2>K2 is small, there are only 11 employees ( including the boss and 2 interns). With 2 major departments: IT and design. No doubt that I’m working in the design departments.</br>
-        Basically, in K2, people usually work as a team of 2-3 for a project, a designer and 1-2 developers. Designers in K2 are called the UI/UX designer, they are designing all the layout for the projects and let the developers to make things happen. </h2>
+      <p>K2 is small, there are only 11 employees ( including the boss and 2 interns). With 2 major departments: IT and design. No doubt that I’m working in the design departments.</br>
+        Basically, in K2, people usually work as a team of 2-3 for a project, a designer and 1-2 developers. Designers in K2 are called the UI/UX designer, they are designing all the layout for the projects and let the developers to make things happen. </p>
       </div>
     </div>
     <%= image_tag 'landing_team.png', width: 950 %>
   </div>
   <div class="row padded">
-    <div class="col-xs-7 aroundpad">
+    <div class="col-xs-6 aroundpad">
       <h2>beside working,</h2>
-      <h1>I AM THE ART BASE DESIGNER</h1>
-      <h3>that never worked in a web design company.</h3>
-      <h2>K2 digital is a IT based design company, they do have some branding project, but definitely not an ad agency. People may wonder as an advertising student, why don’t you go for an ad agency? Throughout the years as an ad student, i learnt that I’m definitely more of an art direction person than a creative. And I think to myself, why not challenge myself working in a whole new environment? Moreover, K2 digital was finding someone who’s good at art direction.  That’s the reason why I’m in K2 digital.</h2>
-      <%= image_tag 'landing_6.jpg', width: 650 %>
+      <h1>WE WORK.</h1>
+      <h2>“Get on slack, and set up a new channel for this project?”</h2>
+      <p>K2 serves every type of clients, from international brands like Laneige, Sulwhasoo, GU, to some local brands: Movie movie, Macau Design Biennial, or even NGO like 樂苗坊. K2 is a fast growing company, that’s why they need more employees to make things happen! During my 2 months in K2, they are hiring programmers, to extend their business.</p>
+      <%= image_tag 'landing_6.jpg', width: 450 %>
     </div>
     <div class="col-xs-5 aroundpad">
-      <% link_to 'recyclebin.html' do %>
+      <% link_to 'recyclebin.html', class: 'margined' do %>
       <h3>#1</h3>
-      <h3>RECYCLE BIN</h3>
+      <h4>RECYCLE BIN</h4>
       <% end %>
-      <% link_to 'entrance.html' do %>
+      <% link_to 'entrance.html', class: 'margined' do %>
       <h3>#2</h3>
-      <h3>ENTRANCE</h3>
+      <h4>ENTRANCE</h4>
       <% end %>
-      <% link_to 'annualdinner.html' do %>
+      <% link_to 'annualdinner.html', class: 'margined' do %>
       <h3>#3</h3>
-      <h3>ANNUAL DINNER</h3>
+      <h4>ANNUAL DINNER</h4>
       <% end %>
-      <% link_to 'drchau.html' do %>
+      <% link_to 'drchau.html', class: 'margined' do %>
       <h3>#4</h3>
-      <h3>DR.CHAU</h3>
+      <h4>DR.CHAU</h4>
       <% end %>
-      <% link_to 'andsomeworks.html' do %>
+      <% link_to 'andsomeworks.html', class: 'margined' do %>
       <h3>#5</h3>
-      <h3>AND SOME WORKS</h3>
+      <h4>AND SOME WORKS</h4>
       <% end %>
     </div>
   </div>
 
   <div class="row padded">
-    <div class="col-xs-8 aroundpad">
+    <div class="col-xs-6 aroundpad">
       <h2>beside working,</h2>
       <h1>WE CHILL.</h1>
-      <h3>“Can we do boxing, hiking, lunch and more?”</h3>
-      <h2>People in K2 is really hard-working, our programmer and designer start working early and it’s never-ending. Sometimes, they may need to carry their laptop to lunch. Sounds pretty stressed?</br>
+      <h2>“Can we do boxing, hiking, lunch and more?”</h2>
+      <p>People in K2 is really hard-working, our programmer and designer start working early and it’s never-ending. Sometimes, they may need to carry their laptop to lunch. Sounds pretty stressed?</br>
         To achieve work, life balance. We do a lots of activity together, like hiking, boxing, having weird fruits...
       </br>
       Such a fun time in K2!
-    </h2>
+    </p>
   </div>
   <div class="col-xs-4">
     slider
   </div>
 </div>
 
-
-
 <div class="text-center padded">
   <h2>25th Aug 2017</h2>
   <%= image_tag 'landing_10.jpg', width: 650 %>
   <div class="col-xs-4 col-xs-offset-4 text-center">
-
-
-    <h2>and it comes to an end... I would not say I have done much thing for K2, but thanks K2 for having me here, providing me this opportunities of learning. I hope my contribution can help everyone a bit, ensuring the project run smooth. It is really a great opportunity for me to work in this whole new industry.
+  <p>and it comes to an end... I would not say I have done much thing for K2, but thanks K2 for having me here, providing me this opportunities of learning. I hope my contribution can help everyone a bit, ensuring the project run smooth. It is really a great opportunity for me to work in this whole new industry.
       Learning new application, working with real client, using my skills to contribute...</br>
-      I may not be perfect in every task, at least I tried my best.</h2>
+      I may not be perfect in every task, at least I tried my best.</p>
     </div>
 
   </div>

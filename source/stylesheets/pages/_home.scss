@@ -18,14 +18,12 @@
   padding-bottom: 5px;
 }
 
-h2 {
-  font-size: 14px;
-}
 
 .space {
   display: flex;
   align-items: center;
   margin-top: 180px;
+  margin-bottom: 180px;
 }
 
 .black {
@@ -43,4 +41,13 @@ a {
   &:hover {
     text-decoration: none;
   }
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
 }

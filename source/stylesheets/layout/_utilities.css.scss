@@ -10,16 +10,44 @@
   padding-bottom: 15em;
 }
 
-// Backgrounds
-.bg-text {
-  background: #4a4a4a;
+
+h1 {
+  font-family: "swiss", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 30px;
 }
-.bg-email {
-  background: #aeaeae;
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
 }
-.bg-twitter {
-  background: #00a3e1;
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: italic;
 }
-.bg-facebook {
-  background: #3b5998;
+
+a {
+  h3 {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    line-height:30px;
+  }
+
+  h4 {
+    color: black;
+    font-family: "swiss", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 40px;
+  }
+}
+
+.margined {
+  margin: 20px;
 }
