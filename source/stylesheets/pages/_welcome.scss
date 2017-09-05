@@ -1,0 +1,47 @@
+.bigbanner {
+  color: black;
+  text-align: left;
+  height: 1200px;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+}
+
+.google {
+  // height: 100px;
+}
+
+.left {
+  float: right;
+}
+
+.aroundpad {
+  padding: 100px 150px 150px 150px;
+}
+
+.text {
+  line-height: 10px;
+}
+
+.pads {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.middlebanner {
+  height: 400px;
+}
+
+.aroundpadded {
+  padding: 50px 50px 50px 100px;
+  font-weight: bold;
+}
+
+.right {
+  text-align: right;
+}
+
+.banner-contenu {
+
+}
