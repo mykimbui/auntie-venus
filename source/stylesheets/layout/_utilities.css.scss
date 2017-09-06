@@ -10,12 +10,17 @@
   padding-bottom: 15em;
 }
 
+.pads {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+
 
 h1 {
-  font-family: "swiss", sans-serif;
+  font-family: 'Anton', sans-serif;
   font-size: 60px;
-  font-weight: bold;
-  line-height: 30px;
+  line-height: 40px;
 }
 
 h2 {
@@ -41,7 +46,7 @@ a {
 
   h4 {
     color: black;
-    font-family: "swiss", sans-serif;
+    font-family: 'Anton', sans-serif;
     font-size: 35px;
     font-weight: bold;
     line-height: 40px;

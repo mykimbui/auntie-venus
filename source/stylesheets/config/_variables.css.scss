@@ -3,13 +3,15 @@
  * ------------------------------------- */
 // Google fonts
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
 @font-face {
     font-family: swiss;
     src: url(Swiss924BT.ttf);
 }
 
 $base-font: 'Crimson Text', serif;
-$header-font: "swiss", sans-serif;
+$header-font: 'Anton', sans-serif;
 
 
 // Local fonts (uncomment following lines)
