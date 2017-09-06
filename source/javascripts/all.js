@@ -2,4 +2,6 @@
 //= require bootstrap-sprockets
 //= require_tree .
 
-$('.carousel').carousel()
+$('.carousel').carousel();
+
+new WOW().init();
