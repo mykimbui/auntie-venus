@@ -29,7 +29,7 @@
 .black {
   background-color: black;
   color: white;
-  height: 320px;
+  height: 335px;
   font-size: 30px;
   display: flex;
   align-items: center;
@@ -40,6 +40,8 @@ a {
   text-decoration: none;
   &:hover {
     text-decoration: none;
+    color: #919191;
+    background-color: #919191;
   }
 }
 
